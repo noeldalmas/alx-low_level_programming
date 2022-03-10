@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * main function
+ * main - Main function as the entry point
+ *
+ * Return: 0 since the function takes no argument
 */
 int main(void)
 {
