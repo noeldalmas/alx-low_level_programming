@@ -7,20 +7,15 @@
  */
 int main(void)
 {
-	int ones;
-	int tens;
+	int digit;
 
-	for (ones = 0; ones <= 9; ones++)
+	for (digit = 0; digit <= 9; digit++)
 	{
-		for (tens = 0; tens <= 9; tens++)
+		putchar (digit + '0');
+		if (!(digit == 9))
 		{
-			putchar (ones + '0');
-			putchar (tens + '0');
-
-			if (!(ones == 9 && tens == 9))
-			{
-				putchar (',');
-			}
+			putchar (',');
+			putchar (' ');
 		}
 	}
 	putchar ('\n');
