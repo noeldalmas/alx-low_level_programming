@@ -5,7 +5,7 @@
  *
  * Return: 0 since the main functiontakes no argument
  */
-int main(void)
+void main(void)
 {
 	int i;
 	for (i = 'a'; i <= 'z'; i++);
@@ -13,5 +13,4 @@ int main(void)
 		putchar(i);
 	}
 	putchar('\n');
-	return (0);
 }
