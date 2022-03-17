@@ -1,10 +1,9 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * _isdigit - check for uppercase character
+ * _isdigit - check for a digit
  * @c: digit to be checked
- * Return: 1 if c is uppercase, 0 otherwise
+ * Return: 1 if c is digit, 0 otherwise
  */
 int _isdigit(int c)
 {
