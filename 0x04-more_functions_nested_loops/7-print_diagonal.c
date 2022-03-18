@@ -4,7 +4,7 @@
  * print_diagonal - draw a diagonal line on the terminal
  * @n: number of \
  */
-void print_diagonal(int n);
+void print_diagonal(int n)
 {
 	int i, j;
 
