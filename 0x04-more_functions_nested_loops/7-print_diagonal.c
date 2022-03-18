@@ -1,8 +1,7 @@
 #include "main.h"
-
 /**
- * print_diagonal - draw a diagonal line on the terminal
- * @n: number of \
+ * print_diagonal - print diagonal line
+ * @n: number of bacslashes
  */
 void print_diagonal(int n)
 {
