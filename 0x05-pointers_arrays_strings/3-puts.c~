@@ -1,0 +1,16 @@
+#include "main.h"
+
+/**
+ * _puts - print a string
+ * @str: string content
+ */
+void _puts(char *str)
+{
+	int i;
+
+	while (*str != '\0')
+	{
+		_putchar(*str);
+		str++;
+	}
+}
